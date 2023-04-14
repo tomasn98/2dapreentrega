@@ -39,30 +39,35 @@
   </nav>
   <!--termina nav-->
   <!--arranca header-->  
- <header class="container-fluid text-center fs-4 figfont">
-    <div class="row">
-        <section class="col-sm-12 col-md-4 col-lg-4 ">
-            <figure>
-                <img src="../imagenes/logo-ubicacion.png" alt="logo visitanos" class="py-2">
-                   <figcaption><h2>visitanos</h2></figcaption>
-                      <p>Visitanos en Av rolon 2089 . San isidro</p>
-            </figure>
-        </section>
-        <section class="col-sm-12 col-md-4 col-lg-4">
-            <figure>
-                <img src="../imagenes/logo-telefono.png" alt="logo llamanos" class="py-2">
-                 <figcaption><h2>Llamanos</h2></figcaption>
-                     <p>LLamanos al 1161273811 o al / 47371742</p>
-            </figure>
-        </section>
-        <section class="col-sm-12 col-md-4 col-lg-4">
-            <figure>
-                <img src="../imagenes/logo-mail.png" alt="logo contactate en linea" class="py-2">
-                 <figcaption><h2>Contactate en linea</h2></figcaption>
-                    <p>Contactate via mail a gamestore@gmail.com</p>
-            </figure>
-        </section>
+  <header>
+
+    <div id="contenedorheader">
+      <div  id="contactanos"> 
+        <figure>
+          <img src="../imagenes/logo-mail.png" alt="imagen contactate">
+          <figcaption>Contactate via mail</figcaption>
+          <p>contacte via mail a gamestore@gmail.com</p>
+        </figure>
+      </div>
+
+      <div id="llamanos">
+        <figure>
+          <img src="../imagenes/logo-telefono.png" alt="imagen llamanos">
+          <figcaption>Contactate via mail</figcaption>
+          <p>contacte via mail a gamestore@gmail.com</p>
+        </figure>
+      </div>
+
+      <div id="visitanos">
+        <figure>
+          <img src="../imagenes/logo-mail.png" alt="imagen contactate">
+          <figcaption>Contactate via mail</figcaption>
+          <p>contacte via mail a gamestore@gmail.com</p>
+        </figure>
+      </div>
+
     </div>
+
  
   </header>
   <!--termina header-->
@@ -134,51 +139,35 @@
 
     </main>
     <!--termina main-->
-    <footer class="footerrgb text-center text-white">
+    <!--arranca footer-->
+   <footer id="footer">
+    <div id="logo">
+      <a href="#">
+        <img src="../imagenes/logo-game-store.svg" alt="logo-gamestore">
+      </a>
+    </div>
+      <div id="contac">
+        <h3>Contactanos</h3>
+        <a href="../pages/contacto.html">
+          <img src="../imagenes/logo-telefono.svg" alt="logo-telefono">
+          
+        </a>
+          <a href="#">
+            <img src="../imagenes/logo-mail.svg" alt="">
+            
+          </a>
+      </div>
+        <div>
+          <h3>Seguinos</h3>
+          <a href="https://www.facebook.com" target="_blank">
+              <img src="../imagenes/logo-facebook.svg" alt="logo-facebook">
+          </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="../imagenes/logo-instagram.svg" alt="logo instagram">
+            </a>
+        </div>
 
-        <div class="container p-4 pb-0">
-         
-          <section class="">
-            <form action="">
-            
-              <div class="row d-flex justify-content-center">
-             
-                <div class="col-auto">
-                  <p class="pt-2">
-                    <strong>Suscribite para recibir nuevas novedades</strong>
-                  </p>
-                </div>
-          
-      
-        
-                <div class="col-md-5 col-12">
-          
-                  <div class="form-outline form-white mb-4">
-                    <input type="email" id="form5Example29" class="form-control" />
-                    <label class="form-label py-2" for="form5Example29">Direccion de mail</label>
-                  </div>
-                </div>
-          
-      
-                <div class="col-auto">
-              
-                  <button type="submit" class="btn btn-outline-light mb-4 ">
-                    Suscribite
-                  </button>
-                </div>
-            
-              </div>
-       
-            </form>
-          </section>
-      
-        </div>
-     
-        <div class="text-center p-3 bg-dark">
-          <p>Game store tienda de videojuegos</p>
-          
-        </div>
-   
-      </footer>
+   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
+</html>
