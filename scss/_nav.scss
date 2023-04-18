@@ -1,0 +1,17 @@
+
+.nav{ 
+    background-color: black;
+
+    ul{
+        li{
+            a{ color: white;
+                &:hover{
+                    color:blueviolet
+                }
+
+            }
+        }
+    }
+
+    img{ width: 100px;}
+}

@@ -1,0 +1,71 @@
+/*pantalla-productos*/
+
+
+/*estilos-productos*/
+.productos{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    
+    figure{
+        border-radius: 3px;
+        color: black;
+    }
+
+    img {
+        width: 50%;
+        margin: 5px;
+    }   
+            
+
+
+    p {
+        padding: 5px;
+        margin: 5px;
+        font-size: 1.2em;
+        
+    }
+
+    figcaption {
+        font-size: 1.4em;
+    }
+}
+
+.consolasyvideojuegos{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+
+    img {
+        width: 50%;
+        margin: 5px;
+    }
+
+
+
+    p {
+        padding: 5px;
+        margin: 5px;
+        font-size: 1.2em;
+    }
+
+    figcaption {
+        font-size: 1.4em;
+    }
+
+    figure {
+        margin-top: 10px;
+    }
+
+
+    
+}
+

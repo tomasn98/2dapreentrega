@@ -1,0 +1,30 @@
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1{
+    
+    font-weight: 700;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif
+    
+     }
+
+h2{
+    font-family:'Times New Roman', Times, serif
+}
+
+
+// mixin
+
+@mixin botones ($borde , $width, $color) {
+    background-color: $colorprincipal;
+    border-radius: $borde;
+    width: $width ;
+    color: $color;
+}
+
+button{
+    @include botones(6px,40% ,white )
+}

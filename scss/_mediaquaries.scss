@@ -1,0 +1,102 @@
+
+/*media-quaries-tablet*/
+
+@media (min-width:768px){
+
+    .productosindex{
+            
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+          
+    }
+
+    .videojuegosxbox{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+     }
+    
+    .videojuegosps5{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+
+    #contenedorheader{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:1;
+    grid-template-areas: 
+    "contactanos llamanos visitanos"   
+    ;
+
+    }
+
+    #footer{
+
+        flex-direction: row;
+        justify-content: space-between
+    
+    }
+    .productos{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+     
+        
+    }
+
+    .consolasyvideojuegos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        
+    }
+
+    .ofertas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+
+    }
+
+
+
+
+}
+
+/*media-quaries-desktop*/
+ 
+@media (min-width:1024px){
+
+    .productosindex{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+    }
+
+    .videojuegosxbox{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+     }
+
+     .videojuegosps5{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+    }
+
+
+    .productos{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+
+    .consolasyvideojuegos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        
+    }
+
+    .ofertas{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+
+    }
+}

@@ -1,2 +1,3 @@
 node_modules/
 *.vsc
+*main.css.map

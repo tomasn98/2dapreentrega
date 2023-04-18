@@ -1,0 +1,42 @@
+
+
+/*Pantalla-contacto*/
+
+/*estilos header*/
+#contenedorheader{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "contactanos"
+    "llamanos"
+    "visitanos"
+    ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+ 
+
+#contactanos{
+    grid-area: contactanos;
+    padding: 3%;
+    margin: 2px;
+    
+
+}
+
+#llamanos{
+    grid-area: llamanos;
+    padding: 3%;
+    margin: 2px;
+
+}
+
+#visitanos{
+    grid-area: visitanos;
+    padding: 3%;
+    margin: 2px;
+
+}

@@ -1,0 +1,39 @@
+
+/*Pantalla Ofertas*/
+
+.ofertas{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+
+    img {
+        width: 50%;
+        margin: 5px;
+    }
+
+    p {
+        padding: 5px;
+        margin: 5px;
+        font-size: 1.2em;
+    }
+
+
+      
+    figcaption {
+        font-size: 1.4em;
+    }
+
+    
+}
+
+
+
+        
+        
+
+              
+

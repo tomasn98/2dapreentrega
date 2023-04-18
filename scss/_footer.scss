@@ -1,0 +1,38 @@
+/*estilos footer*/
+
+
+#footer{
+    background-color: $secondarycolor;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    img {
+        width:50px;
+        margin: 5px;
+        
+    }
+
+    h3{
+        color: $colorprincipal;
+    }
+    
+
+}
+
+
+#logo{
+    grid-area: logo;
+    
+}
+
+#contact{
+    grid-area: contact;
+}
+
+#seguinos{
+    grid-area: seguinos;
+}
