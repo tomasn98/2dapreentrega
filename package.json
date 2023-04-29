@@ -1,5 +1,5 @@
 {
-  "name": "preentrega-numero-2",
+  "name": "preentrega-numero-3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "sass": "sass",
 		"sass:watch": "sass --watch scss/main.scss  css/main.css"
   },
-  "author": "",
+  "author": "Tomas Agustin Nuñez",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.62.0"

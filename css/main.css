@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Cabin&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -16,12 +16,13 @@ h2 {
 button {
   background-color: black;
   border-radius: 6px;
-  width: 40%;
+  width: 60%;
   color: white;
 }
 
 .nav {
   background-color: black;
+  font-family: "Righteous", cursive;
 }
 .nav ul li a {
   color: white;
@@ -45,11 +46,6 @@ button {
 .productosindex img {
   width: 50%;
   margin: 5px;
-}
-.productosindex button {
-  background: #000;
-  color: white;
-  width: 40%;
 }
 .productosindex p {
   padding: 5px;
@@ -211,33 +207,19 @@ button {
 }
 
 /*estilos footer*/
-#footer {
-  background-color: rgb(93, 92, 82);
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: grey;
+}
+.footer .piedepagina {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
   align-items: center;
-  padding: 10px;
 }
-#footer img {
-  width: 50px;
-  margin: 5px;
-}
-#footer h3 {
-  color: black;
-}
-
-#logo {
-  grid-area: logo;
-}
-
-#contact {
-  grid-area: contact;
-}
-
-#seguinos {
-  grid-area: seguinos;
+.footer img {
+  width: 120px;
 }
 
 /*media-quaries-tablet*/
@@ -259,10 +241,6 @@ button {
     grid-template-rows: 1;
     grid-template-areas: "contactanos llamanos visitanos";
   }
-  #footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
   .productos {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -276,6 +254,10 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
+  }
+  .piedepagina {
+    display: flex;
+    flex-direction: row;
   }
 }
 /*media-quaries-desktop*/
@@ -305,6 +287,10 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+  }
+  .piedepagina {
+    display: flex;
+    flex-direction: row;
   }
 }
 

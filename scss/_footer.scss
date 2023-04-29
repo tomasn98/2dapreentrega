@@ -1,38 +1,23 @@
 /*estilos footer*/
 
 
-#footer{
-    background-color: $secondarycolor;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    
 
-    img {
-        width:50px;
-        margin: 5px;
+    .piedepagina{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
         
     }
 
-    h3{
-        color: $colorprincipal;
+    img{
+        width: 120px;
     }
+
     
-
-}
-
-
-#logo{
-    grid-area: logo;
-    
-}
-
-#contact{
-    grid-area: contact;
-}
-
-#seguinos{
-    grid-area: seguinos;
-}
+    }
