@@ -47,11 +47,12 @@
         grid-template-rows: auto;
     }
 
-    .piedepagina{
-        display: flex;
+    .footer .piedepagina {
         flex-direction: row;
-        
+        justify-content: space-around;
     }
+
+
 
 
 
@@ -98,13 +99,11 @@
         grid-template-rows: auto;
 
     }
-
-    .piedepagina{
-        display: flex;
+    
+    .footer .piedepagina {
         flex-direction: row;
-        
+        justify-content: space-around;
     }
-
 
     
 }

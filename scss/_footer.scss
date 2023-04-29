@@ -4,7 +4,7 @@
 .footer{
     width: 100%;
     height: auto;
-    background-color: grey;
+    background-color: rgb(94, 93, 82);
     
 
     .piedepagina{
@@ -13,10 +13,25 @@
         text-align: center;
         align-items: center;
         
+        
     }
 
     img{
-        width: 120px;
+        width: 50px;
+  
+    }
+
+
+
+    h3{
+        color: #000;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+    }
+
+
+    a{
+        text-decoration: none;
     }
 
     

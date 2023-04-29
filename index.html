@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <!--arranca nav-->
-  <nav class="navbar navbar-expand-lg  nav sticky-top ">
+  <nav class="navbar navbar-expand-lg navbar-dark nav sticky-top ">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
        <img src="imagenes/logo-game-store.svg" alt="logo game store">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon color span "></span>
+        <img src="imagenes/joystick-navbar.svg" alt="imagen joystick de boton desplegable">
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -44,9 +44,32 @@
 
   <!--arranca header-->
   <header>
-    <img src="imagenes/banner-oferta-joystick.jpg" alt=" Banner Oferta Joystick" class="w-100">
-
-</header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/banner-oferta-joystick.jpg" class="d-block w-100" alt="banner de oferta joystick 30 % descuento">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/banner-godof.jpg" class="d-block w-100" alt="banner good of war nuevo lanzamiento">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/banner-gamestore.jpg" class="d-block w-100" alt="banner local game store">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
   <!--termina header-->
   <body>
   <!--arranca main-->
@@ -233,7 +256,7 @@
         <figure>
           <img src="portadas-videojuegos/portada-howarts-ps5.jpg" alt="howarts">
           <figcaption>Howarts ps5</figcaption>
-          <p>Harry potter howarts para Ps5 $20000</p>
+          <p> howarts para Ps5 $20000</p>
           <button>Agregar al carrito</button>
         </figure>
       </div>
@@ -273,7 +296,7 @@
         <figure>
           <img src="portadas-videojuegos/portada-fifa22-ps5.jpg" alt="fifa-22-ps5">
           <figcaption>Fifa 22 Ps5</figcaption>
-          <p>Fifa 22 Ps5 con monedas de regalo $25300 </p>
+          <p>Fifa 22 Ps5 $25300 </p>
           <button>Agregar al carrito</button>
         </figure>
       </div>
@@ -316,7 +339,7 @@
 
  <!--arranca footer-->
  <footer class="footer">
-    <div class="piedepagina p-4">
+    <div class="piedepagina p-2">
       <div>
         <a href="index.html">
           <img src="imagenes/logo-game-store.svg" alt=" logo game store">
@@ -324,17 +347,23 @@
       </div>
 
       <div>
-        <h3>Sobre Nosotros</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, doloribus!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quaerat.</p>
+        <h3>Contactate</h3>
+        <a href="pages/contacto.html">
+          <img src="imagenes/logo-telefono.svg" alt="logo telefono">
+        </a>
+
+        <a href="pages/contacto.html">
+          <img src="imagenes/logo-mail.svg" alt="logo mail">
+        </a>
+      
       </div>
 
       <div>
         <h3>Seguinos</h3>
-        <a href="#">
+        <a href="pages/error404.html">
           <img src="imagenes/logo-facebook.svg" alt="logo facebook">
         </a>
-        <a href="">
+        <a href="pages/error404.html">
           <img src="imagenes/logo-instagram.svg" alt="logo instagram">
         </a>
       </div>
